@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RobinHub — AI Assistant for Windows</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <span class="logo"><span class="dot"></span>RobinHub</span>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#providers">Providers</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="https://github.com/yourusername/RobinHub" target="_blank" class="btn-ghost">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="badge">Windows 10 / 11 · .NET 8 · Free</div>
+      <h1>AI at your<br /><span class="grad">fingertips</span></h1>
+      <p class="sub">RobinHub puts five AI providers in a sleek bubble window that lives in your system tray. Switch models, attach files, chain prompts — without leaving your workflow.</p>
+      <div class="hero-ctas">
+        <a href="#install" class="btn-primary">Download for Windows</a>
+        <a href="#features" class="btn-ghost">See features</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="app-mockup">
+        <div class="mockup-bar">
+          <span class="mockup-logo"><span class="mockup-dot"></span>RobinHub</span>
+          <span class="mockup-credits">$11.07</span>
+          <div class="mockup-icons">
+            <span>📌</span><span>≡</span><span>E</span><span>⚙</span><span>×</span>
+          </div>
+        </div>
+        <div class="mockup-row">
+          <select class="mockup-select"><option>OpenRouter</option></select>
+          <select class="mockup-select"><option>DeepSeek: R1 ⭐</option></select>
+        </div>
+        <div class="mockup-row">
+          <select class="mockup-select full"><option>(No skills/prompt loaded — Direct input only)</option></select>
+          <span class="mockup-icon-btn">↺</span>
+        </div>
+        <div class="mockup-drop">Drop files and/or enter text.</div>
+        <div class="mockup-status">Loaded 345 models</div>
+        <div class="mockup-footer">
+          <button class="mockup-send">Send</button>
+          <div class="mockup-footer-icons">
+            <span>💾</span><span>🖼</span><span>💬</span><span>🗑</span>
+          </div>
+        </div>
+      </div>
+      <div class="glow"></div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stat"><strong>5</strong> AI Providers</div>
+    <div class="stat-div"></div>
+    <div class="stat"><strong>300+</strong> Models</div>
+    <div class="stat-div"></div>
+    <div class="stat"><strong>3</strong> Window Sizes</div>
+    <div class="stat-div"></div>
+    <div class="stat"><strong>100%</strong> Local Encryption</div>
+  </div>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="section-label">Features</div>
+    <h2>Everything a power user needs</h2>
+    <p class="section-sub">Built for developers, writers, and researchers who want AI without the browser tab.</p>
+
+    <div class="feature-grid">
+
+      <div class="feature-card accent-card">
+        <div class="feature-icon">🫧</div>
+        <h3>Bubble Interface</h3>
+        <p>Frameless, rounded window with glassmorphism and drop shadow. Three sizes: Minimal, Compact, Extended. Stays out of your way until you need it.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔀</div>
+        <h3>Multi-Provider</h3>
+        <p>Switch between OpenRouter, OpenAI, Anthropic, Google Gemini, and local Ollama models in one click. API keys encrypted with Windows DPAPI.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📎</div>
+        <h3>File &amp; URL Input</h3>
+        <p>Drag &amp; drop files or paste a URL — RobinHub fetches the page content automatically. Each attachment shows with a remove button.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">📋</div>
+        <h3>Prompt Templates</h3>
+        <p>Point at any folder of <code>.txt</code>, <code>.md</code>, or <code>.prompt</code> files. Select a template; it becomes Part 1 of the prompt, your text becomes Part 2.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">💾</div>
+        <h3>Auto-Save History</h3>
+        <p>Every response saved automatically with configurable file naming (<code>{timestamp}_{model}</code>) and subfolder patterns. Browse history from the sidebar.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🖼</div>
+        <h3>Image &amp; Video Gen</h3>
+        <p>Toggle image or video generation per request. Model capability icons (<span class="cap-icon">🖼</span> <span class="cap-icon">🎬</span>) shown inline in the model picker.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Security First</h3>
+        <p>All keys encrypted via Windows DPAPI. Optional master password with strong enforcement (12+ chars, mixed case, digit, symbol). Change password without re-entering keys.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">⌨️</div>
+        <h3>Keyboard-First</h3>
+        <p><code>Ctrl+Enter</code> to send, <code>Ctrl+1/2/3</code> for window sizes, <code>Ctrl+T</code> to pin on top, global hotkey to summon from anywhere.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🗂</div>
+        <h3>Session Persistence</h3>
+        <p>Conversations saved with provider, model, and message metadata. Context depth slider on the main UI. One click to start a fresh session.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROVIDERS -->
+  <section class="providers" id="providers">
+    <div class="section-label">Providers</div>
+    <h2>All major AI providers. One window.</h2>
+    <div class="provider-grid">
+      <div class="provider-card">
+        <div class="provider-name">OpenRouter</div>
+        <div class="provider-desc">100+ models, credits display &amp; refresh, full model list fetched live</div>
+      </div>
+      <div class="provider-card">
+        <div class="provider-name">OpenAI</div>
+        <div class="provider-desc">GPT-4, GPT-4o, o1-preview and more — credits display included</div>
+      </div>
+      <div class="provider-card">
+        <div class="provider-name">Anthropic</div>
+        <div class="provider-desc">Claude 3.5 Sonnet, Haiku, and all variants</div>
+      </div>
+      <div class="provider-card">
+        <div class="provider-name">Google Gemini</div>
+        <div class="provider-desc">Gemini 1.5 Pro, Flash, and more from Google AI Studio</div>
+      </div>
+      <div class="provider-card featured-provider">
+        <div class="provider-name">Ollama / Local</div>
+        <div class="provider-desc">Run Llama, Mistral, and any local model — no API key needed</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHORTCUTS -->
+  <section class="shortcuts">
+    <div class="section-label">Keyboard Shortcuts</div>
+    <h2>Built for speed</h2>
+    <div class="shortcut-table">
+      <div class="shortcut-row"><kbd>Ctrl+1</kbd><span>Minimal window</span></div>
+      <div class="shortcut-row"><kbd>Ctrl+2</kbd><span>Compact window (default)</span></div>
+      <div class="shortcut-row"><kbd>Ctrl+3</kbd><span>Extended window</span></div>
+      <div class="shortcut-row"><kbd>Ctrl+Enter</kbd><span>Send prompt</span></div>
+      <div class="shortcut-row"><kbd>Ctrl+T</kbd><span>Toggle stay on top</span></div>
+      <div class="shortcut-row"><kbd>Ctrl+R</kbd><span>Toggle result panel</span></div>
+      <div class="shortcut-row"><kbd>Custom</kbd><span>Global hotkey (configurable)</span></div>
+    </div>
+  </section>
+
+  <!-- INSTALL -->
+  <section class="install" id="install">
+    <div class="section-label">Quick Start</div>
+    <h2>Up and running in 60 seconds</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h4>Download &amp; Install</h4>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h4>Run</h4>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h4>Configure</h4>
+          <p>Click ⚙️ → enable providers → paste API keys → set output directory. Done.</p>
+        </div>
+      </div>
+    </div>
+    <div class="install-cta">
+      <a href="https://github.com/dayeggpi/RobinHub/releases/download/0.9.0/RobinHub.exe" class="btn-primary">Download Portable (.exe)</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="logo"><span class="dot"></span>RobinHub</span>
+      <span class="footer-mid">Windows 10/11 · .NET 8</span>
+      <span class="footer-right">Built with ❤️ by <a href="https://github.com/dayeggpi" target="_blank">dayeggpi</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
